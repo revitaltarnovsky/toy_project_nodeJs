@@ -5,7 +5,7 @@ Below are described the REST endpoints available that you can use to search in t
 
 GET method:
 
-ALL-https://revital-toys.herokuapp.com/toys- wiil show you all the toys in the database
+ALL-https://revital-toys.herokuapp.com/toys - wiil show you all the toys in the database
 ?page-will show you products per page, in each page the default limit is 5 toys- https://revital-toys.herokuapp.com/toys/?page=1
 
 CATEGORY-https://revital-toys.herokuapp.com/toys/cat/{category name} - will serch toys by category
@@ -17,7 +17,7 @@ for example:https://revital-toys.herokuapp.com/toys/search/?s=Albus
 
 PRICES-https://revital-toys.herokuapp.com/toys/prices/?min={price}&max={price} - will show you toys between range of prices, when min and max is chosen by user.
 for example: https://revital-toys.herokuapp.com/toys/prices/?min=20&max=50
-?page-will show you products per page, in each page the default limit is 5 toys-https://revital-toys.herokuapp.com/toys/prices/?page=0&min=20&max=50
+?page-will show you products per page, in each page the default limit is 5 toys- https://revital-toys.herokuapp.com/toys/prices/?page=0&min=20&max=50
 
 POST method:
 
